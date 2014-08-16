@@ -1,0 +1,9 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "live"]
+	url = ssh://random14@randomthingshere.com/home/random14/git/howdoistartblog.git
+	fetch = +refs/heads/*:refs/remotes/live/*
